@@ -10,8 +10,8 @@ Groupe
 
 - [AYMAN MAAROUFI ](https://github.com/Ayman-Maaroufi)
 - [IMLOUL Mohamed-Younès](https://github.com/contributeur2)
-- [Fanny Moustapha ](https://github.com/contributeur3)
-- [Gueye Papa Modou](https://github.com/contributeur3)
+- [FANNY MOUSTAPHA](https://github.com/contributeur3)
+- [GUEYE PAPA MODOU](https://github.com/contributeur3)
 
 # Présentation du projet
 
