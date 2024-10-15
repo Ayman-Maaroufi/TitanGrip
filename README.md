@@ -1,17 +1,21 @@
-# Projet HTML/CSS/JS
+# Présentation du projet
 
-## TitanGrip  
 
-[TitanGrip](https://github.com)
+# Sujet Name
+
+## TitanGrip
+
+[TitanGrip](https://login.github.io/projet/)
 
 ## Membres du groupe :
 
-Groupe 
-
-- [AYMAN MAAROUFI ](https://github.com/Ayman-Maaroufi)
-- [IMLOUL Mohamed-Younès](https://github.com/contributeur2)
-- [FANNY MOUSTAPHA](https://github.com/contributeur3)
-- [GUEYE PAPA MODOU](https://github.com/contributeur4)
+Etudiant 1 (référent du groupe) :  [AYMAN MAAROUFI](mailto:login@edu.univ-fcomte.fr?)  
+Etudiant 2 : [IMLOUL Mohamed-Younès](mailto:login@edu.univ-fcomte.fr?)   
+Etudiant 3 : [Nom](mailto:login@edu.univ-fcomte.fr?)  
+Etudiant 4 : [FANNY MOUSTAPHA](mailto:login@edu.univ-fcomte.fr?)  
+Etudiant 5 : [GUEYE PAPA MODOU](mailto:login@edu.univ-fcomte.fr?) 
 
 # Présentation du projet
+
+
 
