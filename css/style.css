@@ -1,0 +1,201 @@
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #808080;
+}
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: var(--accent-color);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.nav-icons .icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+    color: var(--accent-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+    padding: 2rem 1rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: space-between;
+    flex-wrap: wrap;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.footer-pd {
+    margin-bottom: 1rem;
+}
+
+.footer-pd h4 {
+    margin-bottom: 1rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+}
+
+.footer-pd ul {
+    list-style: none;
+}
+
+.footer-pd ul li {
+    margin-right: 0.5rem;
+}
+
+.footer-pd ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-pd ul li a:hover {
+    color: var(--accent-color);
+}
+
+.footer-en {
+    text-align: center;
+    margin-top: 2rem;
+    padding-top: 1rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+@media (max-width: 768px) {
+    .logo-text {
+        display: none;
+    }
+}
