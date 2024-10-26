@@ -373,96 +373,100 @@ footer {
 
 
 
-        @media screen and (max-width: 768px) {
-        nav {
-            position: relative;
-        }
-    
-        .hamburger {
-            display: block;
-            position: absolute;
-            right: 20px;
-            top: 50%;
-            transform: translateY(-50%);
-            z-index: 1001;
-        }
-    
-        .hamburger img {
-            width: 30px;
-            height: auto;
-        }
-    
-        .nav-links {
-            display: none;
-            flex-direction: column;
-            position: absolute;
-            top: 100%;
-            left: 0;
-            right: 0;
-            background-color: rgba(0, 0, 0, 0.9);
-            padding: 20px 0;
-            z-index: 1000;
-        }
-    
-        .nav-links.active {
-            display: flex;
-        }
-    
-        .nav-links li {
-            margin: 10px 0;
-        }
-    
-        .nav-icons {
-            margin-right: 60px;
-        }
-    
-        .hero h1 {
-            font-size: 3rem;
-        }
-    
-        .hero p {
-            font-size: 1.2rem;
-        }
-    
-        .produits {
-            grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
-        }
-    
-        .tech-fts, .athletes-panc {
-            flex-direction: column;
-            align-items: center;
-        }
-    
-        .athlete-pers {
-            width: 100%;
-            max-width: 300px;
-        }
+@media screen and (max-width: 768px) {
+    .nav-links {
+        display: none;
+        flex-direction: column;
+        position: absolute;
+        top: 100%;
+        left: 0;
+        right: 0;
+        background-color: rgba(0, 0, 0, 0.9);
+        padding: 20px 0;
+        z-index: 1000;
     }
-    
-    @media screen and (max-width: 450px) {
-        .logo-text {
-            display: none;
-        }
-    
-        .hero h1 {
-            font-size: 2.5rem;
-        }
-    
-        .hero p {
-            font-size: 1rem;
-        }
-    
-        .button-AAA {
-            padding: 0.6rem 1.5rem;
-            font-size: 0.9rem;
-        }
-    
-        .produit-grl h2, .techno h2, .athletes h2 {
-            font-size: 1.5rem;
-        }
-    
-        .footer {
-            flex-direction: column;
-            gap: 2rem;
-        }
-        }   
+
+    .nav-links.active {
+        display: flex;
+    }
+
+    .nav-links li {
+        margin: 10px 0;
+    }
+
+    .hamburger {
+        display: block;
+        cursor: pointer;
+    }
+
+    .hamburger .bar {
+        display: block;
+        width: 25px;
+        height: 3px;
+        margin: 5px auto;
+        transition: all 0.3s ease-in-out;
+        background-color: var(--primary-color);
+    }
+
+    .hamburger.active .bar:nth-child(2) {
+        opacity: 0;
+    }
+
+    .hamburger.active .bar:nth-child(1) {
+        transform: translateY(8px) rotate(45deg);
+    }
+
+    .hamburger.active .bar:nth-child(3) {
+        transform: translateY(-8px) rotate(-45deg);
+    }
+
+    .hero h1 {
+        font-size: 3rem;
+    }
+
+    .hero p {
+        font-size: 1.2rem;
+    }
+
+    .produits {
+        grid-template-columns: repeat(auto-fit, minmax(200px, 1fr));
+    }
+
+    .tech-fts, .athletes-panc {
+        flex-direction: column;
+        align-items: center;
+    }
+
+    .athlete-pers {
+        width: 100%;
+        max-width: 300px;
+    }
+}
+
+@media screen and (max-width: 450px) {
+    .logo-text {
+        display: none;
+    }
+
+    .hero h1 {
+        font-size: 2.5rem;
+    }
+
+    .hero p {
+        font-size: 1rem;
+    }
+
+    .button-AAA {
+        padding: 0.6rem 1.5rem;
+        font-size: 0.9rem;
+    }
+
+    .produit-grl h2, .techno h2, .athletes h2 {
+        font-size: 1.5rem;
+    }
+
+    .footer {
+        flex-direction: column;
+        gap: 2rem;
+    }
+}
