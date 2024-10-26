@@ -1,11 +1,13 @@
 # Présentation du projet
 
+TitanGrip est un site e-commerce dédié aux sports de combat, inspiré par des marques comme Venum. Le site propose une large gamme d'équipements de boxe, MMA, et autres sports de combat, pour amateurs et professionnels.
+
 
 # TitanGrip 🥊
 
 ## ProjetDevWeb1
 
-[TitanGrip](https://ayman-maaroufi.github.io/TitanGrip/index.html)
+[TitanGrip - Site Demo](https://ayman-maaroufi.github.io/TitanGrip/index.html)
 
 ## Membres du groupe :
 
@@ -24,9 +26,8 @@ Fanny Moustapha	(Apropos.html) :	Conception et mise en œuvre de la page À prop
 
 Papa Modou Gueye	(Panier.html) :	Support sur la page panier aux côtés d’Ayman, optimisant la fonctionnalité de gestion des achats.
 
-# Présentation du projet
 
-TitanGrip est un site e-commerce dédié aux sports de combat, inspiré par des marques comme Venum. Le site propose une large gamme d'équipements de boxe, MMA, et autres sports de combat, pour amateurs et professionnels.
+
 
 
 
