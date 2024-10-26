@@ -1,0 +1,253 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #808080;
+}
+
+
+body {
+    background-color: #000;
+    color: #fff;
+    font-family: Arial, sans-serif;
+    margin: 0;
+    padding: 0;
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: var(--accent-color);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.nav-icons .icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+    color: var(--accent-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+}
+
+.nouveautes h2 {
+    text-align: center;
+    color: #f5f5dc;
+    margin-bottom: 20px;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 2.5em;
+    letter-spacing: 2px;
+    text-transform: uppercase;
+    border-bottom: 2px solid #555;
+    padding-bottom: 10px;
+}
+
+.nouveautes {
+    background-color: #222;
+    padding: 20px;
+    margin: 20px 0;
+    border-radius: 8px;
+    box-shadow: 0 4px 15px rgba(0, 0, 0, 0.3);
+}
+
+.nouveautes-container {
+    display: grid;
+    grid-template-columns: repeat(auto-fill, minmax(300px, 1fr));
+    gap: 20px;
+}
+
+.container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 20px;
+    padding: 20px;
+}
+
+.slot {
+    border: 1px solid #555;
+    padding: 10px;
+    text-align: center;
+    background-color: #222;
+    min-height: 250px;
+    border-radius: 8px;
+    transition: transform 0.3s ease;
+}
+
+.slot:hover {
+    transform: scale(1.05);
+}
+
+.product-name {
+    font-weight: bold;
+    margin-bottom: 10px;
+    color: #f5f5dc;
+    font-family: 'Trebuchet MS', sans-serif;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.product-name:hover {
+    color: #f5f5dc;
+    text-shadow: 0 0 8px rgba(245, 245, 220, 0.8);
+}
+
+.product-price {
+    margin-top: 10px;
+    color: #f5f5dc;
+    font-weight: bold;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    transition: color 0.3s ease, text-shadow 0.3s ease;
+}
+
+.product-price:hover {
+    color: #f5f5dc;
+    text-shadow: 0 0 8px rgba(245, 245, 220, 0.8);
+    text-decoration: underline;
+}
+
+img {
+    max-width: 80%;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+img:hover {
+    transform: scale(1.1);
+}
+
+.add-to-cart-btn {
+    background-color: #333;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, color 0.3s ease;
+    font-size: 16px;
+    margin-top: 10px;
+}
+
+.add-to-cart-btn:hover {
+    background-color: #f5f5dc;
+    color: #333;
+}
+
+footer {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-pd h4 {
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.footer-pd ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-pd ul li {
+    margin-bottom: 0.4rem;
+}
+
+.footer-pd ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-pd ul li a:hover {
+    color: var(--accent-color);
+    text-decoration: none; /* Supprime le soulignement au survol */
+}
+
+.footer-en {
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.8rem;
+}

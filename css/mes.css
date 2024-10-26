@@ -1,0 +1,317 @@
+@import url('https://fonts.googleapis.com/css2?family=Orbitron:wght@400;700&family=Roboto:wght@300;400;700&display=swap');
+
+
+:root {
+    --primary-color: #ffffff;
+    --secondary-color: #000000;
+    --background-color: #000000;
+    --text-color: #ffffff;
+    --accent-color: #808080;
+}
+
+
+
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    font-family: 'Roboto', sans-serif;
+    line-height: 1.6;
+    color: var(--text-color);
+    background-color: var(--background-color);
+}
+
+header {
+    background-color: rgba(0, 0, 0, 0.8);
+    backdrop-filter: blur(10px);
+    padding: 1rem;
+    position: fixed;
+    width: 100%;
+    top: 0;
+    z-index: 1000;
+
+}
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    max-width: 1200px;
+    margin: 0 auto;
+}
+
+.nav-links {
+    display: flex;
+    list-style: none;
+}
+
+.nav-links li {
+    margin-left: 1rem;
+}
+
+.nav-links li a {
+    color: var(--text-color);
+    text-decoration: none;
+    text-transform: uppercase;
+    font-size: 0.9rem;
+    transition: color 0.3s ease;
+}
+
+.nav-links li a:hover {
+    color: var(--accent-color);
+}
+
+.nav-icons {
+    display: flex;
+    gap: 1rem;
+}
+
+
+.nav-icons .icon {
+    cursor: pointer;
+    transition: color 0.3s ease;
+}
+
+.nav-icons .icon:hover {
+    color: var(--accent-color);
+}
+
+.logo {
+    display: flex;
+    align-items: center;
+    font-family: Orbitron, sans-serif;
+    font-size: 1.5rem;
+    font-weight: bold;
+    color: var(--primary-color);
+    text-shadow: 0 0 10px rgba(255, 255, 255, 0.5);
+}
+
+
+
+.logo-nav {
+    width: 40px;
+    height: 40px;
+    margin-right: 10px;
+}
+
+.logo-text {
+    text-transform: uppercase;
+}
+
+.container {
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+    padding: 60px;
+    max-width: 1200px;
+    margin: auto;
+    background-color: #2b2b2b;
+    border-radius: 10px;
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+    margin-top: 50px;
+}
+
+.text {
+    max-width: 600px;
+}
+
+h1 {
+    font-size: 3em;
+    margin-bottom: 20px;
+    color: #fff;
+    text-transform: uppercase;
+    letter-spacing: 2px;
+}
+
+p {
+    font-size: 1.2em;
+    line-height: 1.8;
+    margin-bottom: 20px;
+    color: #dcdcdc;
+}
+
+.button {
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 15px 30px;
+    text-decoration: none;
+    border-radius: 50px;
+    font-weight: bold;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+    box-shadow: 0 4px 10px rgba(255, 75, 75, 0.5);
+}
+
+.button:hover {
+    background-color: #ff7676;
+    transform: translateY(-3px);
+    box-shadow: 0 6px 15px rgba(255, 75, 75, 0.6);
+}
+
+.image {
+    max-width: 400px;
+    overflow: hidden;
+    border-radius: 15px;
+    transform: scale(1);
+    transition: transform 0.4s ease;
+}
+
+.image img {
+    width: 100%;
+    height: auto;
+    transition: transform 0.4s ease;
+    border-radius: 10px;
+}
+
+.image:hover img {
+    transform: scale(1.1);
+}
+
+
+.contact-section {
+        background-color:#2b2b2b;
+        padding: 60px 0;
+        text-align: center;
+        color: #fff;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.6);
+        max-width: 1200px;
+        margin: 50px auto;
+}
+
+.contact-section h2 {
+    font-size: 2.5em;
+    margin-bottom: 40px;
+    text-transform: uppercase;
+    letter-spacing: 1.5px;
+}
+
+.contact-form {
+        background-color: rgba(34, 34, 34, 0.9);
+        padding: 40px;
+        border-radius: 10px;
+        box-shadow: 0 8px 16px rgba(0, 0, 0, 0.7);
+        max-width: 600px;
+        margin: 0 auto;
+
+}
+
+.form-row {
+    display: flex;
+    justify-content: space-between;
+}
+
+.form-group {
+    margin-bottom: 20px;
+}
+
+.half-width {
+    width: 48%;
+}
+
+.form-group label {
+    display: block;
+    font-size: 1.2em;
+    margin-bottom: 8px;
+    color: #fff;
+}
+
+.form-group input,
+.form-group textarea {
+    width: 100%;
+    padding: 15px;
+    border: 1px solid #444;
+    border-radius: 5px;
+    background-color: #333;
+    color: #fff;
+    font-size: 1em;
+}
+
+.form-group input[type="checkbox"] {
+    width: auto;
+    margin-right: 10px;
+}
+
+.submit-button {
+    background-color: #ff4b4b;
+    color: #fff;
+    padding: 15px 30px;
+    border: none;
+    border-radius: 50px;
+    font-size: 1.2em;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.3s ease;
+}
+
+.submit-button:hover {
+    background-color: #ff7676;
+    transform: translateY(-3px);
+}
+
+
+footer {
+    background-color: rgba(255, 255, 255, 0.05);
+    color: var(--text-color);
+    padding: 2rem 0;
+    text-align: center;
+    margin-top: 4rem;
+    font-size: 0.9rem;
+}
+
+.footer {
+    display: flex;
+    justify-content: center;
+    gap: 3rem;
+    max-width: 700px;
+    margin: 0 auto;
+    padding: 0 1rem;
+}
+
+.footer-pd h4 {
+    margin-bottom: 0.75rem;
+    text-transform: uppercase;
+    color: var(--primary-color);
+    font-size: 1rem;
+}
+
+.footer-pd ul {
+    list-style: none;
+    padding: 0;
+}
+
+.footer-pd ul li {
+    margin-bottom: 0.4rem;
+}
+
+.footer-pd ul li a {
+    color: var(--text-color);
+    text-decoration: none;
+    transition: color 0.3s ease;
+}
+
+.footer-pd ul li a:hover {
+    color: var(--accent-color);
+    text-decoration: none; /* Supprime le soulignement au survol */
+}
+
+.footer-en {
+    margin-top: 1.5rem;
+    padding-top: 0.75rem;
+    border-top: 1px solid rgba(255,255,255,0.1);
+    font-size: 0.8rem;
+}
+
+@media (max-width: 600px) {
+    .footer {
+        flex-direction: column;
+        gap: 1.5rem;
+        align-items: center;
+    }
+
+    .footer-pd {
+        text-align: center;
+    }
+}

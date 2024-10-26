@@ -3,26 +3,31 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1">
-    <link rel="shortcut icon" href="../images/accueil/icon.ico" type="image/x-icon">
-    <link rel="stylesheet" href="../css/style.css">
+    <link rel="shortcut icon" href="images/accueil/icon.ico" type="image/x-icon">
+    <link rel="stylesheet" href="css/style.css">
     <title>TitanGrip France</title>
 </head>
 <body>
     <header>
         <nav>
             <div class="logo">
-                <img src="../images/accueil/TitanGrip.png" alt="TitanGrip-Logo" class="logo-nav">
-                <span class="logo-text">TitanGrip</span>
+                <a href="index.html"><img src="images/accueil/TitanGrip.png" alt="TitanGrip-Logo" class="logo-nav"></a>
+                    <span class="logo-text">TitanGrip</span>
+            </div>
+            <div class="hamburger">
+                <span class="bar"></span>
+                <span class="bar"></span>
+                <span class="bar"></span>
             </div>
             <ul class="nav-links">
                 <li><a href="index.html">Accueil</a></li>
-                <li><a href="boutique.html">Produits</a></li>
-                <li><a href="aprop.html">A Propos</a></li>
-                <li><a href="panier.html">Panier</a></li>
+                <li><a href="/html/boutique.html">Produits</a></li>
+                <li><a href="html/prop.html">A Propos</a></li>
+                <li><a href="/html/panier.html">Panier</a></li>
             </ul>
-                <div class="nav-icons">
-                    <span class="icon">🛍️</span>
-                </div>
+            <div class="nav-icons">
+                <a href="/html/panier.html"><span class="icon">🛍️</span></a>
+            </div>
         </nav>
     </header>
 
@@ -31,42 +36,36 @@
         <section id="accueil" class="hero">
             <h1>TITANGRIP</h1>
             <p>L'AVENIR DU COMBAT EST ICI</p>
-            <a href="boutique.html" class="button-AAA">Découvrir</a>
+            <a href="#produits" class="button-AAA">Découvrir</a>
         </section>
 
-        <section id="produit" class="produit-grl">
+        <section id="produits" class="produit-grl">
             <h2>Équipement Révolutionnaire</h2>
             <div class="produits">
-                <div class="produit-img">
-                    <img src="/images/produit1.png" alt="Casque-Boxe-TitanGrip">
+                <div class="produit-card">
+                    <div class="produit-img">
+                        <img src="/images/accueil/produit2.jpg" alt="Casque-Boxe-TitanGrip">
+                    </div>
+                    <h3>Gants TitanGrip Pro</h3>
+                    <p>149,99 €</p>
+                    <button>Ajouter au panier</button>
                 </div>
-                <h3>Casque TitanGrip Elite</h3>
-                <p>39,99 €</p>
-                <button>Ajouter au panier</button>
-            </div>
-            <div class="produits">
-                <div class="produit-img">
-                    <img src="/images/produit2.png" alt="Casque-Boxe-TitanGrip">
+                <div class="produit-card">
+                    <div class="produit-img">
+                        <img src="/images/accueil/produit3.jpg" alt="Short-Boxe-TitanGrip">
+                    </div>
+                    <h3>Short TitanGrip Flex</h3>
+                    <p>99,99 €</p>
+                    <button>Ajouter au panier</button>
                 </div>
-                <h3>Gants TitanGrip Pro</h3>
-                <p>149,99 €</p>
-                <button>Ajouter au panier</button>
-            </div>
-            <div class="produits">
-                <div class="produit-img">
-                    <img src="/images/produit3.png" alt="Short-Boxe-TitanGrip">
+                <div class="produit-card">
+                    <div class="produit-img">
+                        <img src="/images/accueil/produit4.jpg" alt="Protège_Dents-Boxe-TitanGrip">
+                    </div>
+                    <h3>Protège-dents TitanGrip Shield</h3>
+                    <p>75,99 €</p>
+                    <button>Ajouter au panier</button>
                 </div>
-                <h3>Short TitanGrip Flex</h3>
-                <p>99,99 €</p>
-                <button>Ajouter au panier</button>
-            </div>
-            <div class="produits">
-                <div class="produit-img">
-                    <img src="/images/produit4.png" alt="Protège_Dents-Boxe-TitanGrip">
-                </div>
-                <h3>Protège-dents TitanGrip Shield</h3>
-                <p>75,99 €</p>
-                <button>Ajouter au panier</button>
             </div>
         </section>
 
@@ -110,25 +109,7 @@
                 </div>
             </div>
         </section>
-
-
-
-
-
-
-
     </main>
-
-
-
-
-
-
-
-
-
-
-
     <footer>
         <div class="footer">
             <div class="footer-pd">
@@ -153,6 +134,8 @@
             <p>&copy; 2024 TitanGrip. Ayman Maaroufi.</p>
         </div>
     </footer>
+<script src="script.js"></script>
+
 
 </body>
 </html>
